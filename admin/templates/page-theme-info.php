@@ -386,6 +386,28 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<?php
 					}
 					?>
+					<?php
+					$changelog = function_exists( 'patterns_magazine_parse_changelog' ) ? patterns_magazine_parse_changelog() : '';
+					if ( $changelog ) {
+						?>
+							<div class="at-row">
+								<div class="at-col-12">
+									<div class="patterns-magazine-card at-bg-cl at-bdr">
+										<div class="patterns-magazine-card-header at-bdr at-p at-jfy-cont-st at-gap at-flx">
+											<span class="dashicons dashicons-backup"></span>
+											<h4 class="patterns-magazine-card-header-ttl at-txt at-m">
+												<?php esc_html_e( 'Changelog', 'patterns-magazine' ); ?>
+											</h4>
+										</div>
+										<div class="patterns-magazine-card-body at-p">
+											<pre class="patterns-magazine-changelog"><?php echo wp_kses_post( $changelog ); ?></pre>
+										</div>
+									</div>
+								</div>
+							</div>
+						<?php
+					}
+					?>
 				</div>
 			</div>
 		</div>
