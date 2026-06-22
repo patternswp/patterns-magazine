@@ -13,7 +13,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|60"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
-	
+
 <!-- wp:group {"align":"wide","style":{"border":{"bottom":{"color":"var:preset|color|tertiary","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide"
 		style="border-bottom-color:var(--wp--preset--color--tertiary);border-bottom-style:solid;border-bottom-width:1px;padding-bottom:var(--wp--preset--spacing--30)">
@@ -70,7 +70,7 @@
 
 <!-- wp:column {"width":"30%","style":{"spacing":{"blockGap":"40px"}}} -->
 <div class="wp-block-column" style="flex-basis:30%">
-	
+
 <!-- wp:group {"style":{"border":{"radius":"15px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"position":{"type":"sticky","top":"0px"}},"backgroundColor":"default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-default-background-color has-background" style="border-radius:15px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":5} -->
 <h5 class="wp-block-heading"><?php esc_html_e( 'Trending Now', 'patterns-magazine' ); ?></h5>

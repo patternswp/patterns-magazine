@@ -28,7 +28,7 @@
 <!-- wp:shortcode -->
 <?php esc_html_e( 'Add Contact form shortcode', 'patterns-magazine' ); ?>
 <!-- /wp:shortcode --></div>
-<!-- /wp:group --> 
+<!-- /wp:group -->
 
 </div>
 <!-- /wp:column -->

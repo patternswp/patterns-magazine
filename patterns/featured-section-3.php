@@ -19,7 +19,7 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%">
-	
+
 <!-- wp:pattern {"slug":"patterns-magazine/posts-layout-8"} /-->
 
 </div>
@@ -27,7 +27,7 @@
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%">
-	
+
 <!-- wp:pattern {"slug":"patterns-magazine/posts-layout-7"} /-->
 
 </div>
@@ -35,7 +35,7 @@
 
 <!-- wp:column {"width":"25%"} -->
 <div class="wp-block-column" style="flex-basis:25%">
-	
+
 <!-- wp:query {"queryId":33,"query":{"perPage":2,"pages":0,"offset":"5","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->
 <div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":1}} -->
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->

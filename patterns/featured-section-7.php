@@ -65,7 +65,7 @@
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"},":hover":{"color":{"text":"var:preset|color|primary"}}}}}} -->
 <p class="has-text-align-center has-link-color"><a href="#"><?php esc_html_e( 'Read More', 'patterns-magazine' ); ?></a></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group -->    
+<!-- /wp:group -->
 
 </div>
 <!-- /wp:column -->
@@ -88,7 +88,7 @@
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"},":hover":{"color":{"text":"var:preset|color|primary"}}}}}} -->
 <p class="has-text-align-center has-link-color"><a href="#"><?php esc_html_e( 'Read More', 'patterns-magazine' ); ?></a></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group -->    
+<!-- /wp:group -->
 
 </div>
 <!-- /wp:column --></div>
