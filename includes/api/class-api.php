@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Magazine_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Magazine_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-magazine/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Magazine_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
