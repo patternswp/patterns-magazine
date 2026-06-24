@@ -14,7 +14,7 @@
 ?>
 <!-- wp:group {"align":"full","className":"has-accent-background-color","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-accent-background-color has-secondary-background-color has-background">
-	
+
 
 <!-- wp:gallery {"columns":6,"linkTo":"lightbox","align":"full","style":{"spacing":{"blockGap":{"top":"0","left":"0"}}}} -->
 <figure class="wp-block-gallery alignfull has-nested-images columns-6 is-cropped"><!-- wp:image {"lightbox":{"enabled":true},"sizeSlug":"large","linkDestination":"none"} -->
@@ -67,11 +67,11 @@
 
 <!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","justifyContent":"center"}} -->
 	<!-- wp:home-link {"label":"<?php echo esc_html_x( 'Home', 'label', 'patterns-magazine' ); ?>"} /-->
-	
-	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'patterns-magazine' ); ?>","url":"#"} /-->
-	
 
-	
+	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'patterns-magazine' ); ?>","url":"#"} /-->
+
+
+
 	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'patterns-magazine' ); ?>","url":"#"} /-->
 	<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'patterns-magazine' ); ?>","url":"#"} /-->
 <!-- /wp:navigation -->

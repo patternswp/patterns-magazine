@@ -1,15 +1,15 @@
-# Copyright (C) 2025 patternswp
+# Copyright (C) 2026 patternswp
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Patterns Magazine 1.0.0\n"
+"Project-Id-Version: Patterns Magazine 2.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/patterns-magazine\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-17T08:47:57+00:00\n"
+"POT-Creation-Date: 2026-06-22T15:14:17+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: patterns-magazine\n"
@@ -284,6 +284,10 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr ""
 
+#: admin/templates/page-theme-info.php:399
+msgid "Changelog"
+msgstr ""
+
 #. translators: %s: Property name.
 #: includes/api/class-api-settings.php:154
 #, php-format
@@ -405,43 +409,43 @@ msgstr ""
 msgid "and"
 msgstr ""
 
-#: includes/functions.php:549
+#: includes/functions.php:557
 msgid "How can I customize the theme header?"
 msgstr ""
 
-#: includes/functions.php:550
+#: includes/functions.php:558
 msgid "You can customize the theme header by editing the Header template part in the Site Editor. Go to Appearance > Editor > Patterns > Header, then select and edit the Header template part."
 msgstr ""
 
-#: includes/functions.php:553
+#: includes/functions.php:561
 msgid "How do I change the footer credits?"
 msgstr ""
 
-#: includes/functions.php:554
+#: includes/functions.php:562
 msgid "To change the footer credits, go to  Appearance > Editor > Patterns > Footer, then select and edit the Footer template part. You can add your own text or remove the existing credits."
 msgstr ""
 
-#: includes/functions.php:557
+#: includes/functions.php:565
 msgid "Does this theme support block patterns?"
 msgstr ""
 
-#: includes/functions.php:558
+#: includes/functions.php:566
 msgid "Yes, this theme includes several pre-designed block patterns that you can use to quickly create layouts. You can find these patterns in the block inserter."
 msgstr ""
 
-#: includes/functions.php:561
+#: includes/functions.php:569
 msgid "How can I create custom templates?"
 msgstr ""
 
-#: includes/functions.php:562
+#: includes/functions.php:570
 msgid "You can create custom templates by going to Appearance > Editor > Templates, then click Add New Template. You can then design your custom template using blocks."
 msgstr ""
 
-#: includes/functions.php:565
+#: includes/functions.php:573
 msgid "How do I use global styles?"
 msgstr ""
 
-#: includes/functions.php:566
+#: includes/functions.php:574
 msgid "To use global styles, go to Appearance > Editor > Styles, then click on the Edit icon in the top right side of Styles. From there, you can customize the colors, typography, and layout for your entire site."
 msgstr ""
 
@@ -1340,48 +1344,37 @@ msgstr ""
 #: theme.json
 #: styles/dark.json
 msgctxt "Duotone name"
-msgid "Base"
-msgstr ""
-
-#: theme.json
-msgctxt "Duotone name"
-msgid "Default"
+msgid "Base to Primary"
 msgstr ""
 
 #: theme.json
 #: styles/dark.json
 msgctxt "Duotone name"
-msgid "Primary"
+msgid "Base to Secondary"
 msgstr ""
 
 #: theme.json
 #: styles/dark.json
 msgctxt "Duotone name"
-msgid "Secondary"
+msgid "White to Primary"
 msgstr ""
 
 #: theme.json
 #: styles/dark.json
 msgctxt "Duotone name"
-msgid "Tertiary"
+msgid "White to Accent"
 msgstr ""
 
 #: theme.json
 #: styles/dark.json
 msgctxt "Duotone name"
-msgid "Quaternary"
+msgid "Tertiary to Secondary"
 msgstr ""
 
 #: theme.json
 #: styles/dark.json
 msgctxt "Duotone name"
-msgid "Quinary"
-msgstr ""
-
-#: theme.json
-#: styles/dark.json
-msgctxt "Duotone name"
-msgid "Accent"
+msgid "Base to Quinary"
 msgstr ""
 
 #: theme.json
@@ -1567,9 +1560,4 @@ msgstr ""
 #: styles/dark.json
 msgctxt "Style variation name"
 msgid "Dark"
-msgstr ""
-
-#: styles/dark.json
-msgctxt "Duotone name"
-msgid "White"
 msgstr ""

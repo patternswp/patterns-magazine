@@ -18,7 +18,7 @@
 		style="border-color:#dadada;border-style:solid;border-width:1px;border-radius:15px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
-			
+
 			<!-- wp:heading {"level":5} -->
 			<h5 class="wp-block-heading"><?php esc_html_e( 'Office Address', 'patterns-magazine' ); ?></h5>
 			<!-- /wp:heading -->

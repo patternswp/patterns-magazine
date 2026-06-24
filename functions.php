@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_MAGAZINE_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_MAGAZINE_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_MAGAZINE_VERSION', '1.0.0' );
+define( 'PATTERNS_MAGAZINE_VERSION', '2.0.0' );
 define( 'PATTERNS_MAGAZINE_THEME_NAME', 'patterns-magazine' );
 define( 'PATTERNS_MAGAZINE_OPTION_NAME', 'patterns-magazine' );
 
